@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	printf("请输入一个数，我就能帮你计算出它的阶乘.\n");
+    int a,i,sum=1;
+    scanf("%d",&a);
+    for(i=1;i<=a;i++)
+    {
+    sum=sum*i;
+    }
+    printf("%d的阶乘是%d",a,sum);
+    return 0;
+}
